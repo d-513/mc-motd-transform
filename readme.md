@@ -23,7 +23,7 @@ console.log(removeColors(parseMotd(pingResults))); // Welcome to our server!
 
 #### Why would anyone use this?
 
-Well, minecraft versions have different responses. The response above from 1.8 is simple, but the more complex ones such as [The 1.15.2 ping](https://github.com/dada513/mc-motd-transform/blob/master/tests/exampleResults/) are a bit annoying to deal with, so I made this utility.
+Well, minecraft versions have different responses. The response above from 1.8 is simple, but the more complex ones such as [The 1.15.2 ping](https://github.com/dada513/mc-motd-transform/blob/master/tests/exampleResults/1.json) are a bit annoying to deal with, so I made this utility.
 
 ## API
 
