@@ -1,0 +1,123 @@
+{
+  "version": {
+    "name": "Travertine 1.7.x, 1.8.x, 1.9.x, 1.10.x, 1.11.x, 1.12.x, 1.13.x, 1.14.x, 1.15.x",
+    "protocol": 575,
+    "supportedVersions": [4]
+  },
+  "players": {
+    "max": 2020,
+    "online": 0
+  },
+  "description": {
+    "extra": [
+      {
+        "color": "light_purple",
+        "strikethrough": true,
+        "text": "---"
+      },
+      {
+        "color": "red",
+        "strikethrough": true,
+        "text": "---"
+      },
+      {
+        "color": "gold",
+        "strikethrough": true,
+        "text": "---"
+      },
+      {
+        "color": "yellow",
+        "strikethrough": true,
+        "text": "---"
+      },
+      {
+        "color": "white",
+        "text": " "
+      },
+      {
+        "color": "aqua",
+        "text": "East"
+      },
+      {
+        "color": "green",
+        "text": "Core"
+      },
+      {
+        "color": "yellow",
+        "text": ".eu "
+      },
+      {
+        "color": "red",
+        "text": "[1.7-1.15] "
+      },
+      {
+        "color": "yellow",
+        "strikethrough": true,
+        "text": "---"
+      },
+      {
+        "color": "gold",
+        "strikethrough": true,
+        "text": "---"
+      },
+      {
+        "color": "red",
+        "strikethrough": true,
+        "text": "---"
+      },
+      {
+        "color": "light_purple",
+        "strikethrough": true,
+        "text": "---"
+      },
+      {
+        "color": "white",
+        "text": "\n"
+      },
+      {
+        "color": "gray",
+        "text": "Beta testy "
+      },
+      {
+        "color": "aqua",
+        "bold": true,
+        "text": "EastCore 2.0"
+      },
+      {
+        "color": "gray",
+        "text": "! "
+      },
+      {
+        "color": "aqua",
+        "text": "UHC"
+      },
+      {
+        "color": "gray",
+        "text": ", "
+      },
+      {
+        "color": "aqua",
+        "text": "Survival "
+      },
+      {
+        "color": "gray",
+        "text": "i "
+      },
+      {
+        "color": "aqua",
+        "text": "KitPvP"
+      },
+      {
+        "color": "gray",
+        "text": "!"
+      }
+    ],
+    "text": ""
+  },
+  "favicon": "data:image/png;base64,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",
+  "modinfo": {
+    "type": "FML",
+    "modList": []
+  },
+  "latency": 61
+}

@@ -1,0 +1,25 @@
+{
+  "name": "mc-motd-transform",
+  "version": "1.0.0",
+  "description": "Transform minecraft ping results motd to text between all versions",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dada513/mc-motd-transform.git"
+  },
+  "keywords": [
+    "minecraft"
+  ],
+  "author": "dada513",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dada513/mc-motd-transform/issues"
+  },
+  "homepage": "https://github.com/dada513/mc-motd-transform#readme"
+}
