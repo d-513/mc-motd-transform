@@ -61,6 +61,46 @@ Parses a minecraft motd from json ping results.
 
 <a name="removeColors"></a>
 
+Removes minecraft colors from a string.
+
+**Kind**: global function
+**Returns**: <code>String</code> - - String with removed colors
+
+| Param  | Type                | Description                  |
+| ------ | ------------------- | ---------------------------- |
+| string | <code>String</code> | String to remove colors from |
+
+PS C:\Users\szsob\Desktop\mc-motd-transform> jsdoc2md src/index.js
+
+## Functions
+
+<dl>
+<dt><a href="#parseMotd">parseMotd(pingResults)</a> ⇒ <code>String</code></dt>
+<dd><p>Parses a minecraft motd from json ping results.</p>
+</dd>
+<dt><a href="#removeColors">removeColors(string)</a> ⇒ <code>String</code></dt>
+<dd><p>Removes minecraft colors from a string.</p>
+</dd>
+<dt><a href="#parsePlayers">parsePlayers(pingResults)</a> ⇒ <code>Object</code></dt>
+<dd><p>Parses minecraft player count from the given pingResults object.</p>
+</dd>
+</dl>
+
+<a name="parseMotd"></a>
+
+## parseMotd(pingResults) ⇒ <code>String</code>
+
+Parses a minecraft motd from json ping results.
+
+**Kind**: global function
+**Returns**: <code>String</code> - - Parsed MOTD
+
+| Param       | Type                | Description              |
+| ----------- | ------------------- | ------------------------ |
+| pingResults | <code>Object</code> | Minecraft JSON response. |
+
+<a name="removeColors"></a>
+
 ## removeColors(string) ⇒ <code>String</code>
 
 Removes minecraft colors from a string.
@@ -71,3 +111,16 @@ Removes minecraft colors from a string.
 | Param  | Type                | Description                  |
 | ------ | ------------------- | ---------------------------- |
 | string | <code>String</code> | String to remove colors from |
+
+<a name="parsePlayers"></a>
+
+## parsePlayers(pingResults) ⇒ <code>Object</code>
+
+Parses minecraft player count from the given pingResults object.
+
+**Kind**: global function
+**Returns**: <code>Object</code> - - Parsed player count
+
+| Param       | Type                | Description              |
+| ----------- | ------------------- | ------------------------ |
+| pingResults | <code>Object</code> | Minecraft JSON response. |

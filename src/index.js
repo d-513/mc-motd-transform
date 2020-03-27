@@ -52,3 +52,26 @@ module.exports.removeColors = string => {
   const regex = /\u00A7[0-9A-FK-OR]/gi;
   return string.replace(regex, "");
 };
+/**
+ * Parses minecraft player count from the given pingResults object.
+ * @param {Object} pingResults - Minecraft JSON response.
+ * @returns {Object} - Parsed player count
+ */
+module.exports.parsePlayers = pingResults => {
+  let players = {};
+  if (pingResults.playerCount && pingResults.maxPlayers) {
+    players = {
+      online: pingResults.playerCount,
+      max: pingResults.maxPlayers
+    };
+  } else if (pingResults.players) {
+    players = pingResults.players;
+  } else {
+    players = {
+      online: "Unknown",
+      max: "Unknown",
+      unknown: true
+    };
+  }
+  return players;
+};
