@@ -35,42 +35,6 @@ npm run test
 
 # API
 
-## Functions
-
-<dl>
-<dt><a href="#parseMotd">parseMotd(pingResults)</a> ⇒ <code>String</code></dt>
-<dd><p>Parses a minecraft motd from json ping results.</p>
-</dd>
-<dt><a href="#removeColors">removeColors(string)</a> ⇒ <code>String</code></dt>
-<dd><p>Removes minecraft colors from a string.</p>
-</dd>
-</dl>
-
-<a name="parseMotd"></a>
-
-## parseMotd(pingResults) ⇒ <code>String</code>
-
-Parses a minecraft motd from json ping results.
-
-**Kind**: global function
-**Returns**: <code>String</code> - - Parsed MOTD
-
-| Param       | Type                | Description              |
-| ----------- | ------------------- | ------------------------ |
-| pingResults | <code>Object</code> | Minecraft JSON response. |
-
-<a name="removeColors"></a>
-
-Removes minecraft colors from a string.
-
-**Kind**: global function
-**Returns**: <code>String</code> - - String with removed colors
-
-| Param  | Type                | Description                  |
-| ------ | ------------------- | ---------------------------- |
-| string | <code>String</code> | String to remove colors from |
-
-PS C:\Users\szsob\Desktop\mc-motd-transform> jsdoc2md src/index.js
 
 ## Functions
 
